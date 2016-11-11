@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "declaration": true,
+    "removeComments": true,
+    "stripInternal": true,
+    "outDir": "lib/",
+    "lib": ["dom", "es5", "es2015.core", "es2015.collection", "es2015.promise"]
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "angularCompilerOptions": {
+    "skipTemplateCodegen": true
+  }
+}
